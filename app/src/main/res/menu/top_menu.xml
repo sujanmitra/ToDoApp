@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/ic_autorenew_black_24dp"
+        android:title="REFRESH"
+        app:showAsAction="never"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_close_black_24dp"
+        android:title="LOGOUT"
+        app:showAsAction="never"/>
+    <item android:id="@+id/exit"
+        android:icon="@drawable/ic_cancel_black_24dp"
+        android:title="EXIT"
+        app:showAsAction="never"/>
+</menu>

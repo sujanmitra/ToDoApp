@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.project.todoapp">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:name=".ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="To Do App"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CreateToDoTask" android:label="Create To Do task"></activity>
+        <activity android:name=".ToDoTaskList" android:label="To Do Task List"/>
+        <activity android:name=".SignUpActivity" android:label="Sign Up"/>
+        <activity android:name=".LoginActivity" android:label="To Do App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
